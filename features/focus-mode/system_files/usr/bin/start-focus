@@ -37,6 +37,7 @@ systemd-run --unit=focus-session \
     --property=SupplementaryGroups="video input render tty" \
     --property=Environment="WLR_NO_HARDWARE_CURSORS=1" \
     --property=Environment="WLR_RENDERER=pixman" \
+    --property=Environment="XKB_DEFAULT_LAYOUT=be" \
     --property="ExecStopPost=+/usr/bin/chvt $CURRENT_VT" \
     $CAGE_CMD
 

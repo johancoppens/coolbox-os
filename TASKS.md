@@ -1,0 +1,4 @@
+- [x] Task 001: Configure Belgian Keyboard Layout for Cage Session
+  - Description: Ensure that the Cage Wayland compositor session uses the Belgian (be) keyboard layout by default.
+  - Context: This likely involves setting the `XKB_DEFAULT_LAYOUT` environment variable or configuring the input devices in the Cage startup script or configuration.
+  - Can this be implemented in install.sh? -> Implemented in `start-focus` script directly.
